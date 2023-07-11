@@ -1,0 +1,8 @@
+
+The idea behind the chunking is supposed to be very flexible.
+
+The immediately obvious use case would be to, for example, chunk content using a chunkChar of \n, \r\n, <hr /> or some similar delimiter
+
+Using it this way will allow you to easily chunk any random text that is input in a way that is visually appealing without actually knowing what the text is
+
+But you could also use it with your OWN DEFINED chunkChars, meaning you could essentially use it as your own formatting.
